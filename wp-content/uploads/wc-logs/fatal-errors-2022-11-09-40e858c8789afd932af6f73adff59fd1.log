@@ -1,0 +1,28 @@
+2022-11-09T04:05:50+00:00 CRITICAL Uncaught Error: Call to undefined function _p() in C:\xampp\test\htdocs\webtramhuong\wordpress-6.1\wordpress\wp-content\themes\flatsome-child\functions.php:82
+Stack trace:
+#0 C:\xampp\test\htdocs\webtramhuong\wordpress-6.1\wordpress\wp-includes\class-wp-hook.php(308): devvn_quickbuy_after_addtocart_button('')
+#1 C:\xampp\test\htdocs\webtramhuong\wordpress-6.1\wordpress\wp-includes\class-wp-hook.php(332): WP_Hook->apply_filters('', Array)
+#2 C:\xampp\test\htdocs\webtramhuong\wordpress-6.1\wordpress\wp-includes\plugin.php(517): WP_Hook->do_action(Array)
+#3 C:\xampp\test\htdocs\webtramhuong\wordpress-6.1\wordpress\wp-content\plugins\woocommerce\templates\single-product\add-to-cart\simple.php(51): do_action('woocommerce_aft...')
+#4 C:\xampp\test\htdocs\webtramhuong\wordpress-6.1\wordpress\wp-content\plugins\woocommerce\includes\wc-core-functions.php(345): include('C:\\xampp\\test\\h...')
+#5 C:\xampp\test\htdocs\webtramhuong\wordpress-6.1\wordpress\wp-content\plugins\woocommerce\includes\wc-template-functions.php(1697): wc_get_template('single-product/...')
+#6 C:\xampp\test\htdocs\webtramhuong\wordpress-6.1\wordpress\wp-includes\class-wp-hook.php(308): woocommerce_simple_add_to_cart('')
+#7 C:\xampp\test\htdocs\webtramhuong\wordpress-6.1\wordpress\wp-includes\class-wp-hook.php(332): WP_Hook->apply_filters('', Array)
+#8 C:\xampp\test\htdocs\webtramhuong\wordpress-6.1\wordpress\wp-includes\plugin.php(517): WP_Hook->do_action(Array)
+#9 C:\xampp\test\htdocs\webtramhuong\wordpress-6.1\wordpress\wp-content\plugins\woocommerce\includes\wc-template-functions.php(1688): do_action('woocommerce_sim...')
+#10 C:\xampp\test\htdocs\webtramhuong\wordpress-6.1\wordpress\wp-includes\class-wp-hook.php(308): woocommerce_template_single_add_to_cart('')
+#11 C:\xampp\test\htdocs\webtramhuong\wordpress-6.1\wordpress\wp-includes\class-wp-hook.php(332): WP_Hook->apply_filters(NULL, Array)
+#12 C:\xampp\test\htdocs\webtramhuong\wordpress-6.1\wordpress\wp-includes\plugin.php(517): WP_Hook->do_action(Array)
+#13 C:\xampp\test\htdocs\webtramhuong\wordpress-6.1\wordpress\wp-content\themes\flatsome\woocommerce\single-product\layouts\product-no-sidebar.php(40): do_action('woocommerce_sin...')
+#14 C:\xampp\test\htdocs\webtramhuong\wordpress-6.1\wordpress\wp-includes\template.php(785): require('C:\\xampp\\test\\h...')
+#15 C:\xampp\test\htdocs\webtramhuong\wordpress-6.1\wordpress\wp-content\plugins\woocommerce\includes\wc-core-functions.php(284): load_template('C:\\xampp\\test\\h...', false)
+#16 C:\xampp\test\htdocs\webtramhuong\wordpress-6.1\wordpress\wp-content\themes\flatsome\woocommerce\content-single-product.php(42): wc_get_template_part('single-product/...', 'no-sidebar')
+#17 C:\xampp\test\htdocs\webtramhuong\wordpress-6.1\wordpress\wp-includes\template.php(785): require('C:\\xampp\\test\\h...')
+#18 C:\xampp\test\htdocs\webtramhuong\wordpress-6.1\wordpress\wp-content\plugins\woocommerce\includes\wc-core-functions.php(284): load_template('C:\\xampp\\test\\h...', false)
+#19 C:\xampp\test\htdocs\webtramhuong\wordpress-6.1\wordpress\wp-content\themes\flatsome\woocommerce\single-product.php(39): wc_get_template_part('content', 'single-product')
+#20 C:\xampp\test\htdocs\webtramhuong\wordpress-6.1\wordpress\wp-includes\template-loader.php(106): include('C:\\xampp\\test\\h...')
+#21 C:\xampp\test\htdocs\webtramhuong\wordpress-6.1\wordpress\wp-blog-header.php(19): require_once('C:\\xampp\\test\\h...')
+#22 C:\xampp\test\htdocs\webtramhuong\wordpress-6.1\wordpress\index.php(17): require('C:\\xampp\\test\\h...')
+#23 {main}
+  thrown in C:\xampp\test\htdocs\webtramhuong\wordpress-6.1\wordpress\wp-content\themes\flatsome-child\functions.php on line 82
+

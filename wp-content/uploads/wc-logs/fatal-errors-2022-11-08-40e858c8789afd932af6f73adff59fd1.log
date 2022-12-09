@@ -1,0 +1,30 @@
+2022-11-08T08:23:19+00:00 CRITICAL syntax error, unexpected identifier "to", expecting ")" in C:\xampp\test\htdocs\webtramhuong\wordpress-6.1\wordpress\wp-content\themes\flatsome-child\functions.php on line 32
+
+2022-11-08T08:23:33+00:00 CRITICAL syntax error, unexpected identifier "to", expecting ")" in C:\xampp\test\htdocs\webtramhuong\wordpress-6.1\wordpress\wp-content\themes\flatsome-child\functions.php on line 33
+
+2022-11-08T08:23:42+00:00 CRITICAL syntax error, unexpected identifier "to", expecting ")" in C:\xampp\test\htdocs\webtramhuong\wordpress-6.1\wordpress\wp-content\themes\flatsome-child\functions.php on line 33
+
+2022-11-08T08:36:19+00:00 CRITICAL syntax error, unexpected token "*", expecting end of file in C:\xampp\test\htdocs\webtramhuong\wordpress-6.1\wordpress\wp-content\themes\flatsome-child\functions.php on line 38
+
+2022-11-08T08:36:34+00:00 CRITICAL syntax error, unexpected identifier "ngay’", expecting ")" in C:\xampp\test\htdocs\webtramhuong\wordpress-6.1\wordpress\wp-content\themes\flatsome-child\functions.php on line 47
+
+2022-11-08T08:36:51+00:00 CRITICAL syntax error, unexpected identifier "ngay’", expecting ")" in C:\xampp\test\htdocs\webtramhuong\wordpress-6.1\wordpress\wp-content\themes\flatsome-child\functions.php on line 47
+
+2022-11-08T08:36:58+00:00 CRITICAL syntax error, unexpected identifier "ngay’", expecting ")" in C:\xampp\test\htdocs\webtramhuong\wordpress-6.1\wordpress\wp-content\themes\flatsome-child\functions.php on line 47
+
+2022-11-08T08:37:19+00:00 CRITICAL Uncaught Error: Undefined constant "‘woocommerce_after_add_to_cart_button’" in C:\xampp\test\htdocs\webtramhuong\wordpress-6.1\wordpress\wp-content\themes\flatsome-child\functions.php:37
+Stack trace:
+#0 C:\xampp\test\htdocs\webtramhuong\wordpress-6.1\wordpress\wp-settings.php(585): include()
+#1 C:\xampp\test\htdocs\webtramhuong\wordpress-6.1\wordpress\wp-config.php(96): require_once('C:\\xampp\\test\\h...')
+#2 C:\xampp\test\htdocs\webtramhuong\wordpress-6.1\wordpress\wp-load.php(50): require_once('C:\\xampp\\test\\h...')
+#3 C:\xampp\test\htdocs\webtramhuong\wordpress-6.1\wordpress\wp-admin\admin.php(34): require_once('C:\\xampp\\test\\h...')
+#4 C:\xampp\test\htdocs\webtramhuong\wordpress-6.1\wordpress\wp-admin\theme-editor.php(10): require_once('C:\\xampp\\test\\h...')
+#5 {main}
+  thrown in C:\xampp\test\htdocs\webtramhuong\wordpress-6.1\wordpress\wp-content\themes\flatsome-child\functions.php on line 37
+
+2022-11-08T08:38:01+00:00 CRITICAL syntax error, unexpected identifier "vào", expecting ")" in C:\xampp\test\htdocs\webtramhuong\wordpress-6.1\wordpress\wp-content\themes\flatsome-child\functions.php on line 42
+
+2022-11-08T08:38:13+00:00 CRITICAL syntax error, unexpected identifier "vào", expecting ")" in C:\xampp\test\htdocs\webtramhuong\wordpress-6.1\wordpress\wp-content\themes\flatsome-child\functions.php on line 38
+
+2022-11-08T08:38:51+00:00 CRITICAL syntax error, unexpected identifier "vào", expecting ")" in C:\xampp\test\htdocs\webtramhuong\wordpress-6.1\wordpress\wp-content\themes\flatsome-child\functions.php on line 32
+

@@ -1,0 +1,18 @@
+2022-11-10T09:34:53+00:00 CRITICAL Uncaught Error: Attempt to assign property "clicks" on null in C:\xampp\test\htdocs\webtramhuong\wordpress-6.1\wordpress\wp-content\plugins\seo-by-rank-math\includes\modules\analytics\class-summary.php:163
+Stack trace:
+#0 C:\xampp\test\htdocs\webtramhuong\wordpress-6.1\wordpress\wp-content\plugins\seo-by-rank-math\includes\modules\analytics\rest\class-rest.php(162): RankMath\Analytics\Summary->get_analytics_summary()
+#1 C:\xampp\test\htdocs\webtramhuong\wordpress-6.1\wordpress\wp-includes\rest-api\class-wp-rest-server.php(1171): RankMath\Analytics\Rest->get_dashboard(Object(WP_REST_Request))
+#2 C:\xampp\test\htdocs\webtramhuong\wordpress-6.1\wordpress\wp-includes\rest-api\class-wp-rest-server.php(1018): WP_REST_Server->respond_to_request(Object(WP_REST_Request), '/rankmath/v1/an...', Array, NULL)
+#3 C:\xampp\test\htdocs\webtramhuong\wordpress-6.1\wordpress\wp-includes\rest-api\class-wp-rest-server.php(442): WP_REST_Server->dispatch(Object(WP_REST_Request))
+#4 C:\xampp\test\htdocs\webtramhuong\wordpress-6.1\wordpress\wp-includes\rest-api.php(410): WP_REST_Server->serve_request('/rankmath/v1/an...')
+#5 C:\xampp\test\htdocs\webtramhuong\wordpress-6.1\wordpress\wp-includes\class-wp-hook.php(308): rest_api_loaded(Object(WP))
+#6 C:\xampp\test\htdocs\webtramhuong\wordpress-6.1\wordpress\wp-includes\class-wp-hook.php(332): WP_Hook->apply_filters(NULL, Array)
+#7 C:\xampp\test\htdocs\webtramhuong\wordpress-6.1\wordpress\wp-includes\plugin.php(565): WP_Hook->do_action(Array)
+#8 C:\xampp\test\htdocs\webtramhuong\wordpress-6.1\wordpress\wp-includes\class-wp.php(399): do_action_ref_array('parse_request', Array)
+#9 C:\xampp\test\htdocs\webtramhuong\wordpress-6.1\wordpress\wp-includes\class-wp.php(780): WP->parse_request('')
+#10 C:\xampp\test\htdocs\webtramhuong\wordpress-6.1\wordpress\wp-includes\functions.php(1332): WP->main('')
+#11 C:\xampp\test\htdocs\webtramhuong\wordpress-6.1\wordpress\wp-blog-header.php(16): wp()
+#12 C:\xampp\test\htdocs\webtramhuong\wordpress-6.1\wordpress\index.php(17): require('C:\\xampp\\test\\h...')
+#13 {main}
+  thrown in C:\xampp\test\htdocs\webtramhuong\wordpress-6.1\wordpress\wp-content\plugins\seo-by-rank-math\includes\modules\analytics\class-summary.php on line 163
+
